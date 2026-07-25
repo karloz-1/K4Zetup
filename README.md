@@ -1,13 +1,13 @@
 # K4zetup
 
-Herramienta de configuración automatizada de sistemas escrita en Bash, diseñada para distribuciones basadas en Debian/Ubuntu. Permite instalar y configurar aplicaciones, herramientas de desarrollo, software de IA, juegos y otros paquetes de forma interactiva y modular.
+Herramienta de configuración automatizada de sistemas escrita en Bash, diseñada para distribuciones basadas en Ubuntu. Permite instalar y configurar aplicaciones, herramientas de desarrollo, software de IA, juegos y otros paquetes de forma interactiva y modular.
 
 ![Imagen del script operando](assets/readme.png)
 
->[!note] Nota
+>[!NOTE] Nota
 Este es un proyecto personal el cual hago para tener una replica de mis configuraciones e instalaciones que tengo en mi maquina. A pesar de que el script es bastante flexible y modular, hay ciertos componentes en los que estás atado a mis decisiones; como puede ser la instalacion de paquetes, extensiones o algunas herramientas.
 
->[!tip]
+>[!TIP]
 Podrás personalizar el script siguiendo la documentación: (pronto)
 
 ## Características
@@ -35,7 +35,7 @@ Podrás personalizar el script siguiendo la documentación: (pronto)
   sudo apt update && sudo apt install gum
   ```
 
->[!note] Nota
+>[!NOTE] Nota
 Este script está probado en ubuntu. Aunque deberia de funcionar bien en otras distros GNU/Linux basadas en debian/ubuntu.
 
 ## Instalación
@@ -58,7 +58,7 @@ K4zetup/
     ├── 02-dev/             # VSCode, extensiones, Node.js
     ├── 03-ai/              # Herramientas de IA
     ├── 04-gaming/          # Steam
-    └── 05-extra/           # Módulos adicionales
+    └── 05-extra/           # Contenido adicional
 ```
 
 ## Módulos
